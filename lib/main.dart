@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sdd_design/profile_screen.dart';
 
 import 'community_support_screen.dart';
 
@@ -34,7 +35,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: CommunitySupportScreen(),
+      home: ProfileScreen(),
+      // home: CommunitySupportScreen(),
     );
   }
 }

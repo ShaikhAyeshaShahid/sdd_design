@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class GlobalConstants {
   static const LinearGradient backgroundGradient = LinearGradient(
-    begin: Alignment.centerLeft,
-    end: Alignment.centerRight,
+    begin: Alignment.topCenter,
+    end: Alignment.bottomCenter,
     colors: [
       Color.fromRGBO(0, 0, 0, 0.5),
       Color.fromRGBO(29, 147, 135, 0.5),

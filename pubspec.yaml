@@ -36,6 +36,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -78,6 +79,10 @@ flutter:
     - family: Jacques_Francois_Shadow
       fonts:
         - asset: assets/fonts/Jacques_Francois_Shadow/JacquesFrancoisShadow-Regular.ttf
+          weight: 400
+    - family: Itim
+      fonts:
+        - asset: assets/fonts/Itim/Itim-Regular.ttf
           weight: 400
 
   #   - family: Trajan Pro
